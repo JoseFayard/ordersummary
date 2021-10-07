@@ -107,12 +107,13 @@ main {
 .plan button {
     border: none;
     padding: 20px;
-    color: var(--purple);
+    color: var(--bright-blue);
     font-weight: 700;
 }
 
 .plan button:hover {
     cursor: pointer;
+    color: var(--purple);
 }
 
 .proceed-btn, .cancel-btn {
@@ -123,7 +124,7 @@ main {
     padding: 15px;
     color: var(--clr-white);
     font-family: var(--primary-font);
-    background-color: var(--purple);
+    background-color: var(--bright-blue);
     border-radius: 10px;
     font-weight: 700;
 }
@@ -136,6 +137,9 @@ main {
 
 .cancel-btn:hover, .proceed-btn:hover {
     cursor: pointer;
+}
+.proceed-btn:hover {
+    background-color: var(--purple);
 }
 
 .attribution {
